@@ -1,0 +1,28 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab560
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\fs24 \cf0 create table sentiment(\
+equip_id serial PRIMARY KEY,\
+timestamp varchar(50) NOT NULL,\
+sentiment varchar(25) NOT NULL,\
+count varchar(25));\
+\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 create table tag_sentiment(\
+equip_id serial PRIMARY KEY,\
+timestamp varchar(50) NOT NULL,\
+tag varchar(300) NOT NULL,\
+sentiment varchar(25) NOT NULL,\
+count varchar(25));\
+\
+create table word_sentiment(\
+equip_id serial PRIMARY KEY,\
+timestamp varchar(50) NOT NULL,\
+word varchar(300) NOT NULL,\
+sentiment varchar(25) NOT NULL,\
+count varchar(25));}
