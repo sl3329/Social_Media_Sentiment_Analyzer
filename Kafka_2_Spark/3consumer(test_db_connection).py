@@ -6,6 +6,7 @@ from pyspark.streaming.kafka import KafkaUtils
 import json
 import re
 from textblob import TextBlob
+from psycopg2.pool import ThreadedConnectionPool
 
 def find_tags(text):
     return re.findall('#\w+', text)
@@ -44,6 +45,30 @@ def get_word_sentiment(df):
         res.append(((word, df[2]), 1))
     return res
 
+def save_sentiment(time, rdd):
+    def save_partition(iter):
+        pool = ThreadedConnectionPool(1,
+                                      5,
+                                      database='postgres',
+                                      user='db_select',
+                                      password='password',
+                                      host='10.0.0.6',
+                                      port='5432')
+        conn = pool.getconn()
+        cur = conn.cursor()
+
+        for record in iter:
+            qry = "INSERT INTO sentiment (timestamp, sentiment, count) VALUES ('%s','%s',%s);" % (
+                time, record[0], record[1])
+            cur.execute(qry)
+
+        conn.commit()
+        cur.close()
+        pool.putconn(conn)
+
+    rdd.foreachPartition(save_partition)
+
+
 sc = SparkContext("spark://10.0.0.6:7077", appName="tweets")
 sc.setLogLevel("WARN")
 ssc = StreamingContext(sc, 2)
@@ -52,13 +77,16 @@ tweets = kvs.map(lambda x: json.loads(x[1])).filter(lambda x: 'text' in x)
 dataframe = tweets.map(get_df)
 
 
-sentiment_count = dataframe.map(lambda x: (x[2], 1))
-tage_sentiment_count = dataframe.flatMap(get_tag_sentiment)
-word_sentiment_count = dataframe.flatMap(get_word_sentiment)
+sentiment_count = dataframe.map(lambda x: (x[2], 1)).reduceByKey(lambda x, y: x + y)
+tage_sentiment_count = dataframe.flatMap(get_tag_sentiment).reduceByKey(lambda x, y: x + y)
+word_sentiment_count = dataframe.flatMap(get_word_sentiment).reduceByKey(lambda x, y: x + y)
 
 sentiment_count.pprint(20)
 tage_sentiment_count.pprint(20)
 word_sentiment_count.pprint(20)
+
+sentiment_count.foreachRDD(save_sentiment)
+
 ssc.start()
 ssc.awaitTermination()
 ssc.stop()
