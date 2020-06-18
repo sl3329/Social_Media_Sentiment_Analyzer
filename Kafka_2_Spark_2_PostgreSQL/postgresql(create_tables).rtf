@@ -12,8 +12,7 @@ timestamp varchar(50) NOT NULL,\
 sentiment varchar(25) NOT NULL,\
 count varchar(25));\
 \
-\pard\pardeftab560\slleading20\partightenfactor0
-\cf0 create table tag_sentiment(\
+create table tag_sentiment(\
 equip_id serial PRIMARY KEY,\
 timestamp varchar(50) NOT NULL,\
 tag varchar(300) NOT NULL,\
@@ -25,4 +24,7 @@ equip_id serial PRIMARY KEY,\
 timestamp varchar(50) NOT NULL,\
 word varchar(300) NOT NULL,\
 sentiment varchar(25) NOT NULL,\
-count varchar(25));}
+count varchar(25));\
+\
+\
+}

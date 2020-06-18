@@ -1,0 +1,144 @@
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'negative' and word = {}.format(word_term) LIMIT 100000': syntax error at or near "{"
+LINE 1: ...sentiment WHERE sentiment = 'negative' and word = {}.format(...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'negative' and word = {}.format(word_term) LIMIT 100000': syntax error at or near "{"
+LINE 1: ...sentiment WHERE sentiment = 'negative' and word = {}.format(...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'negative' and word = {}.format(word_term) LIMIT 100000': syntax error at or near "{"
+LINE 1: ...sentiment WHERE sentiment = 'negative' and word = {}.format(...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = {}.format(word_term) LIMIT 100000': syntax error at or near "{"
+LINE 1: ...sentiment WHERE sentiment = 'positive' and word = {}.format(...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = {}.format(word_term) LIMIT 100000': syntax error at or near "{"
+LINE 1: ...sentiment WHERE sentiment = 'positive' and word = {}.format(...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = {}.format(word_term) LIMIT 100000': syntax error at or near "{"
+LINE 1: ...sentiment WHERE sentiment = 'positive' and word = {}.format(...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = {}.format(word_term) LIMIT 100000': syntax error at or near "{"
+LINE 1: ...sentiment WHERE sentiment = 'positive' and word = {}.format(...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = {}.format(word_term) LIMIT 100000': syntax error at or near "{"
+LINE 1: ...sentiment WHERE sentiment = 'positive' and word = {}.format(...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = {}.format(word_term) LIMIT 100000': syntax error at or near "{"
+LINE 1: ...sentiment WHERE sentiment = 'positive' and word = {}.format(...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = {}.format(word_term) LIMIT 100000': syntax error at or near "{"
+LINE 1: ...sentiment WHERE sentiment = 'positive' and word = {}.format(...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = word_term LIMIT 100000': column "word_term" does not exist
+LINE 1: ...sentiment WHERE sentiment = 'positive' and word = word_term ...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = word_term LIMIT 100000': column "word_term" does not exist
+LINE 1: ...sentiment WHERE sentiment = 'positive' and word = word_term ...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = word_term LIMIT 100000': column "word_term" does not exist
+LINE 1: ...sentiment WHERE sentiment = 'positive' and word = word_term ...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = word_term LIMIT 100000': column "word_term" does not exist
+LINE 1: ...sentiment WHERE sentiment = 'positive' and word = word_term ...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = word_term': column "word_term" does not exist
+LINE 1: ..._sentiment WHERE sentiment = 'positive' and word = word_term
+                                                              ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = word_term': column "word_term" does not exist
+LINE 1: ..._sentiment WHERE sentiment = 'positive' and word = word_term
+                                                              ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = word_term': column "word_term" does not exist
+LINE 1: ..._sentiment WHERE sentiment = 'positive' and word = word_term
+                                                              ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = word_term': column "word_term" does not exist
+LINE 1: ..._sentiment WHERE sentiment = 'positive' and word = word_term
+                                                              ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = word_term': column "word_term" does not exist
+LINE 1: ..._sentiment WHERE sentiment = 'positive' and word = word_term
+                                                              ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = word_term': column "word_term" does not exist
+LINE 1: ..._sentiment WHERE sentiment = 'positive' and word = word_term
+                                                              ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = word_term': column "word_term" does not exist
+LINE 1: ..._sentiment WHERE sentiment = 'positive' and word = word_term
+                                                              ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = word_term': column "word_term" does not exist
+LINE 1: ..._sentiment WHERE sentiment = 'positive' and word = word_term
+                                                              ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = '{}'.format(input_value)': syntax error at or near "."
+LINE 1: ...iment WHERE sentiment = 'positive' and word = '{}'.format(in...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = '{}'.format(input_value)': syntax error at or near "."
+LINE 1: ...iment WHERE sentiment = 'positive' and word = '{}'.format(in...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = '{}'.format(input_value)': syntax error at or near "."
+LINE 1: ...iment WHERE sentiment = 'positive' and word = '{}'.format(in...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = '{}'.format(input_value)': syntax error at or near "."
+LINE 1: ...iment WHERE sentiment = 'positive' and word = '{}'.format(in...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = '{}'.format(input_value)': syntax error at or near "."
+LINE 1: ...iment WHERE sentiment = 'positive' and word = '{}'.format(in...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = '{}'.format(input_value)': syntax error at or near "."
+LINE 1: ...iment WHERE sentiment = 'positive' and word = '{}'.format(in...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = '{}'.format(input_value)': syntax error at or near "."
+LINE 1: ...iment WHERE sentiment = 'positive' and word = '{}'.format(in...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = input_value': column "input_value" does not exist
+LINE 1: ...sentiment WHERE sentiment = 'positive' and word = input_valu...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = input_value': column "input_value" does not exist
+LINE 1: ...sentiment WHERE sentiment = 'positive' and word = input_valu...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = input_value': column "input_value" does not exist
+LINE 1: ...sentiment WHERE sentiment = 'positive' and word = input_valu...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = input_value': column "input_value" does not exist
+LINE 1: ...sentiment WHERE sentiment = 'positive' and word = input_valu...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = input_value': column "input_value" does not exist
+LINE 1: ...sentiment WHERE sentiment = 'positive' and word = input_valu...
+                                                             ^
+
+Execution failed on sql 'SELECT * FROM word_sentiment WHERE sentiment = 'positive' and word = input_value': column "input_value" does not exist
+LINE 1: ...sentiment WHERE sentiment = 'positive' and word = input_valu...
+                                                             ^
+
+could not connect to server: Operation timed out
+	Is the server running on host "ec2-54-243-112-184.compute-1.amazonaws.com" (54.243.112.184) and accepting
+	TCP/IP connections on port 5432?
+
