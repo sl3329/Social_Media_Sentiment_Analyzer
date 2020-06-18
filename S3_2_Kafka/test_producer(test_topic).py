@@ -4,7 +4,7 @@ import boto3
 
 # kafka producer
 bootstrap_servers = 'localhost:9092, 10.0.0.4:9092, 10.0.0.12:9092'
-topic = 'tweets'
+topic = 'test'
 producer = KafkaProducer(bootstrap_servers=bootstrap_servers)
 
 # read data from s3
