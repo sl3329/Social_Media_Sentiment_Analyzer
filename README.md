@@ -3,7 +3,7 @@
 ## Introduction
 The goal of this project is to build a real-time sentiment analysis platform for any real time JSON format data source. In this project, Twitter dataset is used to simulate the real-time sentiment analysis process. 
 
-[Slides](https://docs.google.com/presentation/d/1dSipEcaB8JNQSRuDBkvF47GOYJk0uZnkLFCpJqRxarA/edit) and Demo
+[Slides](https://docs.google.com/presentation/d/1dSipEcaB8JNQSRuDBkvF47GOYJk0uZnkLFCpJqRxarA/edit) and [Demo](https://youtu.be/MRCoRtzdXlM)
 
 ## Problem Statement
 For business, if someone was talking about you or your brand, you need to know what the consumers are saying about your business and your competitors. For advertisers, if you are going to post an advertisement at a specific time or location, you may also want to know the potentional audience's feelings. The applications of sentiment analysis in business cannot be overlooked. 
