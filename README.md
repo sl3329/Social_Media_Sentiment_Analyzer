@@ -25,14 +25,10 @@ To simulate the real time platforam, we are using Twitter [Dataset](https://arch
 To start the platform, please follow the [instructions](https://github.com/sl3329/Social_Media_Sentiment_Analyzer/tree/master/Instructions) to set up EC2 instances and install [AWS CLI](https://aws.amazon.com/cn/cli/). 
 
 Then set up clusters following links in [instructions](https://github.com/sl3329/Social_Media_Sentiment_Analyzer/tree/master/Instructions):
-
-(4 nodes) Spark-Cluster, instance type: m4.large
-
-(3 nodes) Kafka-Cluster , instance type: m4.large
-
-(1 node) PostgreSQL(Timescale) , instance type: m4.large
-
-(1 node) Dash , instance type: m4.large
+- (4 nodes) Spark-Cluster, instance type: m4.large
+- (3 nodes) Kafka-Cluster , instance type: m4.large
+- (1 node) PostgreSQL(Timescale) , instance type: m4.large
+- (1 node) Dash , instance type: m4.large
 
 ## Engineering Challenges
 The overall pipeline has been divided into 3 steps: ingestion, streaming, and delivery. 
