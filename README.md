@@ -15,6 +15,7 @@ So, what is the solution? How do we build a real time platform that can provide 
 ![Tag_Sentiment](Pictures/Tag_Sentiment.png)
 
 ## Technology Stack
+![Tech_Stack](Pictures/Tech_Stack.png)
 
 
 
