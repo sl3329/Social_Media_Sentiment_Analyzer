@@ -1,7 +1,8 @@
 # Streaming Sentiment
 #### Shan Lu - Insight Data Engineering (Silicon Valley 2020)
 ## Introduction
-The goal of this project is to build a real-time sentiment analysis platform for any real time JSON format data source. In this project, Twitter dataset is used to simulate the real-time sentiment analysis process. 
+The goal of this project is to build a real-time sentiment analysis platform for any real time JSON format data source. In this project, Twitter dataset is used to simulate the real-time sentiment analysis process. A real time sentiment analysis quick demo of twitter dataset is shown below:
+![Bar_plot](Pictures/Bar_Plot.png)
 
 [Slides](https://docs.google.com/presentation/d/1dSipEcaB8JNQSRuDBkvF47GOYJk0uZnkLFCpJqRxarA/edit) and [Demo](https://youtu.be/MRCoRtzdXlM)
 
@@ -10,7 +11,7 @@ For business, if someone was talking about you or your brand, you need to know w
 
 ## Solution Statement
 So, what is the solution? How do we build a real time platform that can provide sentiment analysis for different topics and different tags at real time? Also, you can figure out people's sentiment at that moment. There are hundereds of social media applications. For example, there are more than 1.3 million users on twitter, and there are more than 6000 tweets appearing per second. Then we will use these data as a source to the platform and deliver continuous information on a dynamic web page for business and advertisement decision making. 
-![Bar_Plot](Pictures/Bar_Plot.png)
+![Scatter_Plot](Pictures/Scatter_Plot.png)
 ![Word_Sentiment](Pictures/Word_Sentiment.png)
 ![Tag_Sentiment](Pictures/Tag_Sentiment.png)
 
