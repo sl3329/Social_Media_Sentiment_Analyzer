@@ -17,8 +17,8 @@ So, what is the solution? How do we build a real time platform that can provide 
 ## Technology Stack
 ![Tech_Stack](Pictures/Tech_Stack.png)
 
-
-
 ## Dataset
+[Dataset](https://archive.org/search.php?query=collection%3Atwitterstream&sort=-publicdate)
+
 ## Engineering challenges
 ## Trade-offs
