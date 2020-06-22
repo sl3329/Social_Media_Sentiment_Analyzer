@@ -36,7 +36,7 @@ Then set up clusters following links in [instructions](https://github.com/sl3329
 
 ## Engineering Challenges
 The overall pipeline has been divided into 3 steps: ingestion, streaming, and delivery. 
-[!Pipeline](Pictures/Pipeline.png)
+![Pipeline](Pictures/Pipeline.png)
 
 #### Ingestion
 For [step 1](https://github.com/sl3329/Social_Media_Sentiment_Analyzer/tree/master/S3_2_Kafka), we load data from aws s3, and use kafka producer to keep publishing these data into one kafka topic. We have 3 kafka brokers with 3 zookeepers, and one more node for control center. It can produce around 3000 records per second. After adding one more python script to run kafka producer to publish data into the same topic, it can produce around 6000 records per second. With more scripts running at the same time, we should adjust the linger time to wait for more records to arrive and get added to the same batch. In addition, this data source can be extended to any API, and I already tested connection to Twitter API.
