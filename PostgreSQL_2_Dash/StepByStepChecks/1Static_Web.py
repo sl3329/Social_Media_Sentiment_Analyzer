@@ -35,7 +35,11 @@ df_negative.sort_values('equip_id', inplace=True)
 df_neutral = pd.read_sql("SELECT * FROM sentiment WHERE sentiment = 'neutral' ORDER BY equip_id DESC LIMIT 30", conn)
 df_neutral.sort_values('equip_id', inplace=True)
 
+df = pd.read_sql("SELECT * FROM sentiment ORDER BY equip_id DESC LIMIT 30", conn)
+df.sort_values('equip_id', inplace=True)
+
 # df['sentiment_smoothed'] = df['sentiment'].rolling(int(len(df)/5)).mean()
+print(df)
 print(df_postive)
 print(df_negative)
 
