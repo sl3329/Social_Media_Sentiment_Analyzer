@@ -15,10 +15,11 @@ So, what is the solution? How do we build a real time platform that can provide 
 ![Tag_Sentiment](Pictures/Tag_Sentiment.png)
 
 ## Technology Stack
+In the pipeline, we are using aws s3 to store data, kafka to ingest data, spark for streaming, PostgreSQL as the database and dash for live displaying. Also, in spark streaming process, we use TextBlob, a NLP package to get sentiment index. 
 ![Tech_Stack](Pictures/Tech_Stack.png)
 
 ## Dataset
-[Dataset](https://archive.org/search.php?query=collection%3Atwitterstream&sort=-publicdate)
+To simulate the real time platforam, we are using Twitter [Dataset](https://archive.org/search.php?query=collection%3Atwitterstream&sort=-publicdate) in this project. 
 
 ## Engineering challenges
 ## Trade-offs
