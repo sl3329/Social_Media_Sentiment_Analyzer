@@ -55,10 +55,7 @@ In Streaming, we need to consider the NLP package for the sentiment calculation.
 In Delivery, the deisgn of SQL queries should be taken into consideration to delivery the result more quickly. 
 
 ## Future Work
-Adjust linger time in Kafka. 
-
-Increase the number of workers in Spark. 
-
-Adjust the window time in Spark. 
-
-Filter useful information for specific industry or company to ingest more different sources of social media data, and deisgn the customerized platform for business. 
+- Adjust linger time in Kafka. 
+- Increase the number of workers in Spark. 
+- Adjust the window time in Spark. 
+- Filter useful information for specific industry or company to ingest more different sources of social media data, and deisgn the customerized platform for business. 
