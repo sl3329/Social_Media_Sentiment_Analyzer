@@ -1,7 +1,10 @@
 # SET UP CLUSTER:
 (4 nodes) Spark-Cluster, instance type: m4.large
+
 (4 nodes) Kafka-Cluster , instance type: m4.large
+
 (1 node) PostgreSQL, instance type: m4.large
+
 (1 node) Dash , instance type: m4.large
 
 ## EC2 Instances Setup
